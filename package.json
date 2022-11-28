@@ -1,0 +1,22 @@
+{
+  "name": "my-personal-website",
+  "version": "1.0.0",
+  "description": "my personal website with back-end by Node, Express, MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akmal005/my-personal-website.git"
+  },
+  "author": "Akmal Azizkulov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akmal005/my-personal-website/issues"
+  },
+  "homepage": "https://github.com/Akmal005/my-personal-website#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
