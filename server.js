@@ -26,7 +26,6 @@ const BlockList = require('./models/BlockList');
 const Post = require('./models/Post');
 const Comments = require('./models/Comments');
 const Chat = require('./models/Chat');
-const { getAuth } = require('firebase/auth');
 // get user data from mobile and create new user in mongoDB
 app.post('/createUser',(req,res) => {
     console.log(req.body)
