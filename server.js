@@ -48,7 +48,7 @@ app.post('/createUser',(req,res) => {
 })
 
 app.get('/', (req, res)=>{
-    res.send('Hello World');
+    res.send('Hello World.');
 });
 
 app.post('/createComment',(req,res) => {
