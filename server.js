@@ -47,6 +47,9 @@ app.post('/createUser',(req,res) => {
     })
 })
 
+app.get('/', (req, res)=>{
+    res.send('Hello World.');
+});
 
 app.post('/createComment',(req,res) => {
     Post.findById(req.body.postId)
